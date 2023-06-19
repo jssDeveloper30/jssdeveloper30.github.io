@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JSS</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Recurso 1@96x.png" alt="">
+            </div>
+            <h1>J Sebastian S</h1>
+            <h2>Analisis y desarrollo de Software</h2>
+            <div class="redes">
+                <a href="https://acortar.link/1ce4"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://acortar.link/RMaFn2"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sebastian Serna.</span> Apasionado por el codigo backend y el desarrollo de videojuegos con unity y unreal, muy dedicado y comprometido con mi trabajo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            27-02-1994
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2555 5454545
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jsebastianserna30@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.jssdeveloper.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            123 Medellin, Antioquia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador de Software</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Csharp</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Phyton</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Analisis y desarrollo de Software</h4>
+                        <span class="casa">Sena</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>un amplio dominio de diferentes lenguajes de programación, frameworks y herramientas utilizadas en el desarrollo de software. Esto incluye lenguajes como Java, C#, Python, JavaScript, entre otros, así como el manejo de bases de datos y sistemas operativos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico en mantenimiento y repracion de computadores</h4>
+                        <span class="casa">Censa</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>sólido conocimiento de los componentes internos de una computadora, incluyendo la placa base, procesador, memoria RAM, disco duro, tarjeta de video, entre otros. Familiarizado con los sistemas operativos, software y controladores, así como con las redes informáticas y los periféricos asociados.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico en electronica digital y redes</h4>
+                        <span class="casa">Censa</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>esta en capacidad de realizar análisis y la medición de variables eléctricas y electrónicas, montar correctamente partes de equipos eléctricos y electrónicos específicos y darle mantenimiento a los mismos; hacer distribución y mantenimiento de cableado estructurado y verificación de redes de telecomunicaciones, respondiendo a las necesidades de las empresas de todos los sectores.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Diseñador Grafico</h4>
+                        <span class="casa">Estampaciones Creartex</span>
+                        <span class="fecha">2019- 2024</span>
+                        <p>Diseño Gráfico implemento metodologías y procesos de creación de imágenes, estampados, técnicas de expresión gráfica, Flock, alta densidad, textil y tecnologías computacionales, conducentes a la búsqueda de soluciones visuales óptimas a los problemas de la comunicación gráfica y publicitaria.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Estampador</h4>
+                        <span class="casa">Industrias Alpes</span>
+                        <span class="fecha">2012 - 2019</span>
+                        <p>Verificar las planchas antes de realizar una prueba de estmapcion, hacer el montaje necesario para estmapar una prenda y mirar la calidad del estampado, estampar produccion de acuerdo a una ficha tecnica, y a los tiempos establecidos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/calculadora.png" alt="">
+                    <div class="overlay">
+                        <h3>Calculadora</h3>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/lista.png" alt="">
+                    <div class="overlay">
+                        <h3>Lista tareas</h3>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portafolio3.png" alt="">
+                    <div class="overlay">
+                        <h3>Java Jframe</h3>
+                        <p>Convertidor</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/crud.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Java Jframe</h3>
+                        <p>Crud mysql</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portafolio4.png" alt="">
+                    <div class="overlay">
+                        <h3>Java Jframe</h3>
+                        <p>Software Inventario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portafolio5.png" alt="">
+                    <div class="overlay">
+                        <h3>Figma</h3>
+                        <p>Diseño de interfaz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <!--
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://acortar.link/1ce4"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://acortar.link/RMaFn2"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
